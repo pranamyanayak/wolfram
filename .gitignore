@@ -1,0 +1,19 @@
+.git/       .gitignore  
+C02RT17LG8WM:performance-qa pnayak$ vi .gitignore 
+
+
+.DS_Store
+
+TestGrinder/lib/jython/cachedir/**/*
+TestGrinder/lib/jython/Lib/*
+TestGrinder/log/*.log*
+*.class
+*$py.class
+
+.idea
+.project
+.classpath
+*.class
+.settings
+*.iml
+.m2/repository/
